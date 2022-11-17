@@ -4,7 +4,7 @@ import img3 from '../../assets/img/Sagrada-estrella-3.png';
 import img4 from '../../assets/img/Tarjeta-maneki-1.png';
 
 
-const frases = [
+const cards = [
   {
     id: 1,
     price: '12',
