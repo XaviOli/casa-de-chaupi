@@ -1,7 +1,7 @@
 import React from 'react';
 import arnau from '../../assets/img/Arnau-5.png';
 import blob from '../../assets/img/blob.svg';
-import './Home.css';
+import '../../styles/Home.css';
 
 const Home = () => {
   return (
