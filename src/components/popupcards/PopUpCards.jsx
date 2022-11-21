@@ -35,4 +35,4 @@ const cards = [
   }
 ];
 
-export default frases;
+export default cards;

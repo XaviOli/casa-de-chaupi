@@ -1,8 +1,9 @@
 import { Footer } from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
-import Home from './pages/Home';
+import Home from './pages/home/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Register from './pages/register/Register';
+import Login from './pages/login/Login';
 
 function App() {
   return (
@@ -29,7 +30,6 @@ function App() {
             <Route path="/" element={<Home />} />
           </Routes>
         </main>
-        <Home />
         <Footer />
       </BrowserRouter>
     </>
