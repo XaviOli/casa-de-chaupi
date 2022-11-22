@@ -4,6 +4,7 @@ import Home from './pages/home/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Register from './pages/register/Register';
 import Login from './pages/login/Login';
+import Button from './components/button/Button';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <h4>
               Las tarjetas cobran vida y movimiento cada vez que las abres.
             </h4>
+            <Button />
           </div>
         </header>
         <main className="main-container">
