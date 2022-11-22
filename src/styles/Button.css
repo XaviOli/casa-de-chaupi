@@ -1,6 +1,6 @@
 /* this button is inspired from this -- https://www.newline.co/pricing */
 .buy-card {
-    --width: 150px;
+    --width: 196px;
     --timing: 2s;
     border: 0;
     width: var(--width);
@@ -8,7 +8,7 @@
     color: #fff;
     font-weight: bold;
     font-size: 1em;
-    background: rgb(64, 192, 87);
+    background: #8b9960;
     transition: all 0.2s;
     border-radius: 3px;
   }
