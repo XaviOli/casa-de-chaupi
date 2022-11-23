@@ -19,10 +19,6 @@ Where we get really surprise watching the movements of the pages.
 
 ![home image](src/assets/img/01-home-Chaupi.jpg)
 
-<!-- ![home image 1](src/assets/img/Home-casa-de-chaupi-1.png)
-![home image 2](src/assets/img/Home-casa-de-chaupi-2.png)
-![home image 3](src/assets/img/Home-casa-de-chaupi-3.png) -->
-
 Responsive web for the latest mobile version 😃
 
 Here is a shot of our landing page, responsive mobile version of the website from the previous version.
