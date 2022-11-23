@@ -1,25 +1,23 @@
 import React from 'react'
-import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
+
+import { FaInstagram, FaPinterest, FaYoutube } from "react-icons/fa";
 import '../footer/Footer.css';
+import Icon from '../icon/Icon';
 
 export const Footer = () => {
   return (
         <footer>
             <div className="footer-links">
-            <a href="http://facebook.com">
-                <FaFacebook className="link" />
+            <a href="https://bit.ly/3GO2UDU">
+                <FaYoutube className="link" />
             </a>
             <> </>
-            <a href="http://twitter.com">
-                <FaTwitter className="link" />
-            </a>
-            <> </>
-            <a href="http://instagram.com">
+            <a href="https://bit.ly/3V2SNiZ">
                 <FaInstagram className="link" />
             </a>
             <> </>
-            <a href="http://youtube.com">
-                <FaYoutube className="link" />
+            <a href="https://bit.ly/3GFYIq6">
+                <FaPinterest className="link" />
             </a>
             </div>
             <p className="footer-text">

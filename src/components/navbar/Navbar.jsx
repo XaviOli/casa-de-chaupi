@@ -14,17 +14,17 @@ const Navbar = () => {
 					</button>
 				</li>
 				<li>
-					<a href="http://instagram.com">
+					<a href="https://bit.ly/3GO2UDU">
 						<Icon value={{ className: 'nav-icons', style: { width: '2.5rem' } }}><FaYoutube/></Icon>
 					</a>
 				</li>
 				<li>
-					<a href="http://instagram.com">
+					<a href="https://bit.ly/3V2SNiZ">
 						<Icon value={{ className: 'nav-icons', style: { width: '1.6rem' } }}><FaInstagram/></Icon>
 					</a>
 				</li>
 				<li>
-					<a href="http://instagram.com">
+					<a href="https://bit.ly/3GFYIq6">
 						<Icon value={{ className: 'nav-icons', style: { width: '1.6rem' } }}><FaPinterest/></Icon>
 					</a>
 				</li>
