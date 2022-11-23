@@ -1,6 +1,6 @@
 # Pop up cards Casa de Chaupi App
 
-An exciting project of pop up cards, using the engineering of paper to give movement and surprise effect every time it is opened in front of your eyes.
+An exciting project of pop up cards, using the paper engineering to give movement and surprise effect every time it is opened in front of your eyes.
 
 # What is this app about?
 
