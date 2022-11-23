@@ -5,7 +5,7 @@ An exciting project of pop up cards, using the engineering of paper to give move
 # What is this app about?
 
 Personalized cards in three-dimensional technique
-format, with the engineering of paper, like the books we had as children.
+format, with the paper engineering, like the books we had as children.
 
 Where we get really surprise watching the movements of the pages.
 
