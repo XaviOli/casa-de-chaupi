@@ -7,16 +7,21 @@ footer {
     height: 100px;
 };
 
-.footer-links {
-    font-size: 2em;
-};
-
-.footer-text {
-    font-family: sans-serif;
-    font-size: 0.9em;
-};
-
-.link {
-    color: black;
-    transition: all 0.2s ease-in-out;
-};
+.footer-container {
+    height: 80px;
+    background-color: var(--secondary-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1.5rem;
+  }
+  
+  .footer-list-container {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .footer-list-item {
+    display: flex;
+    align-items: center;
+  }

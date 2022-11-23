@@ -9,6 +9,7 @@
 
 .nav-list-container {
   display: flex;
+  list-style-type: none;
 }
 
 .nav-list-item {
