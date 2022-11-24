@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "LEMONMILK-Regular";
+    src: url('../../src/assets/fonts/LEMONMILK-Regular.otf') format('opentype');
+  }
+  
+  body {
+    font-size: 2vw;
+    font-family: "LEMONMILK-Regular";
+  }

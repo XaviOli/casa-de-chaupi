@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../navbar/Navbar';
 // import { logo } from '../../assets/img';
 import logo from '../../assets/img/Logo_CasadeChaupi.png';
+import '../../styles/fonts.css';
 
 const Header = () => {
 	return (
