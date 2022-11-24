@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
+import Button from '../button/Button';
 // import { logo } from '../../assets/img';
 import logo from '../../assets/img/Logo_CasadeChaupi.png';
 import '../../styles/fonts.css';
@@ -20,6 +21,7 @@ const Header = () => {
             Las tarjetas cobran vida y movimiento cada vez que las abres.
 				</h4>
 			</div>
+			<Button />
 		</header>
 	);
 };
