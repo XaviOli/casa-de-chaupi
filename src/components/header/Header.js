@@ -4,6 +4,7 @@ import Button from '../button/Button';
 // import { logo } from '../../assets/img';
 import logo from '../../assets/img/Logo_CasadeChaupi.png';
 import '../../styles/fonts.css';
+import '../header/Header.css';
 
 const Header = () => {
 	return (
@@ -14,7 +15,7 @@ const Header = () => {
 				<h1 className="content-title">
             Tarjetas desplegables
 				</h1>
-				<h2>
+				<h2 className='content-h2'>
             tridimensionales
 				</h2>
 				<h4>
