@@ -58,14 +58,22 @@ const Home = () => {
 				<div className="home-cards-container home-comments-container">
 					<article className="card-container comment-card-container main-comment">
 						<img className="main-comment-image" src={cita}/>
-						<p className="comment-card-text">Quería hacer un regalo especial, algo que sea realmente personalizado e irrepetible y encontré en Instagram estas tarjetas pop up muy originales. Mi amigo quedó sorprendido al verse dentro de una tarjeta troquelada con movimiento. Todos muy contentos con el resultado final.</p>
-						<p className="comment-card-text comment-author">Martha Sanchez</p>
+						<p className="comment-card-text">Quería hacer un regalo especial, algo que sea realmente personalizado e irrepetible y 
+						encontré en Instagram estas tarjetas pop up muy originales. Mi amigo quedó sorprendido al verse dentro de una tarjeta 
+						troquelada con movimiento. Todos muy contentos con el resultado final.</p>
+						<p className="comment-card-text comment-author">Txellsy Foster</p>
 					</article>
 					<article className="card-container comment-card-container default-comment">
-						<p className="comment-card-text">Fusce quam augue, elementum nec lacus fermentum, auctor sodales neque. Quisque eget efficitur eros. Nam risus risus, mattis sed risus et, sollicitudin dignissim mi. Proin risus risus, mattis ac dapibus sed, egestas vel elit. Mauris quis vulputate lorem, faucibus porttitor nulla. </p>
+						<p className="comment-card-text">Siempre he sido muy fan de los libros de mi infancia hechos con ingeniería del papel. Mis padres
+						los guardaban como verdaderos tesoros, para que no los rompamos. Esa fragilidad y toque de magia me ha marcado y por eso he
+						vuelto a revivir esos momentos con estas tarjetas personalizadas. </p>
+						<p className="comment-card-text comment-author">Pau Virgili</p>
 					</article>
 					<article className="card-container comment-card-container default-comment">
-						<p className="comment-card-text">Nam odio sapien, fermentum et ex vel, interdum luctus quam. Sed id tellus vitae orci ornare tincidunt vel id dui. Aliquam malesuada nisl justo, vel lobortis felis lacinia vitae. Donec eget tortor ut magna elementum rhoncus. Cras felis mi, dignissim at convallis sit amet, feugiat nec lacus. In hendrerit elementum felis.</p>
+						<p className="comment-card-text">Buscaba algo diferente para mi marca personal, y tras buscar mucho por diferentes 
+						redes sociales encontré Casa de Chaupi y contacté inmediatamente por Pinterest. Estoy muy contenta con la tarjeta
+						que da vida a mi proyecto familiar, hasta ilusiona ver como el pop up se adapta a mi campaña de marketing.</p>
+						<p className="comment-card-text comment-author">Cecilia Muzzopapa</p>
 					</article>
 				</div>
 			</section>
