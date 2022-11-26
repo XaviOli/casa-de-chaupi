@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-	img1, img3, img2, cita, quotes,
+	img1, img3, img2, quotes,
 } from '../../assets/img';
 import arnau from '../../assets/img/Arnau-cumple-26.png';
 import Button from '../../components/button/Button';
