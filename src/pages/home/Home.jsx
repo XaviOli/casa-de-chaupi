@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-	img1, img3, img2, cita 
+	img1, img3, img2, cita, quotes,
 } from '../../assets/img';
 import arnau from '../../assets/img/Arnau-cumple-26.png';
 import Button from '../../components/button/Button';
@@ -57,7 +57,7 @@ const Home = () => {
 				<h3 className="home-section-title">Comentarios</h3>
 				<div className="home-cards-container home-comments-container">
 					<article className="card-container comment-card-container main-comment">
-						<img className="main-comment-image" src={cita}/>
+						<img className="main-comment-image" src={quotes} />
 						<p className="comment-card-text">Quería hacer un regalo especial, algo que sea realmente personalizado e irrepetible y 
 						encontré en Instagram estas tarjetas pop up muy originales. Mi amigo quedó sorprendido al verse dentro de una tarjeta 
 						troquelada con movimiento. Todos muy contentos con el resultado final.</p>
