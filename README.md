@@ -19,7 +19,7 @@ Where we get really surprise watching the movements of the pages.
 
 ![home image](src/assets/img/01-home-Chaupi.jpg)
 
-Responsive web for the latest mobile version 😃
+Responsive web for the latest mobile version 😃 v
 
 Here is a shot of our landing page, responsive mobile version of the website from the previous version.
 

@@ -39,7 +39,7 @@ const Home = () => {
 							<img className="categories-card-image" src={img3}/>
 						</div>
 						<h4 className="categories-card-title">Ciudades</h4>
-						<p className="categories-card-subtitle">La ciudad de tus sueños</p>
+						<p className="categories-card-subtitle">Monumentos destacados de Europa</p>
 					</article>
 					<article className="card-container">
 						<div className="categories-card-image-container">
