@@ -17,7 +17,7 @@ Where we get really surprise watching the movements of the pages.
 - React Icons
 - React Router DOM
 
-![home image](src/assets/img/02-home-Chaupi.jpg)
+![home image](src/assets/img/03-home-Chaupi.jpg)
 
 Responsive web for the latest mobile version 😃
 
