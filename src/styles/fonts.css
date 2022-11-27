@@ -1,14 +1,9 @@
 @font-face {
-    font-family: LEMONMILK-Regular;
-    src: url('../../src/assets/fonts/LEMONMILK-Regular.otf') format('opentype');
-  }
-  
-  body {
-    font-size: 1rem;
-    font-family: LEMONMILK-Regular;
-  }
+  font-family: "LEMONMILK-Regular";
+  src: url('../../src/assets/fonts/LEMONMILK-Regular.otf') format('opentype');
+}
 
-  @font-face {
-    font-family: hearthstone;
-    src: url('../../src/assets/fonts/hearthstone.ttf') format('TrueType Font');
-  }
+@font-face {
+font-family: hearthstone;
+src: url('../../src/assets/fonts/hearthstone.ttf') format('truetype');
+}

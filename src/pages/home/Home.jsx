@@ -1,16 +1,21 @@
 import React from 'react';
 import {
-	img1, img3, img2, quotes,
+	img1, img3, img2, quotes, blob4, blob3
 } from '../../assets/img';
 import arnau from '../../assets/img/Arnau-cumple-26.png';
-import Button from '../../components/button/Button';
 import '../home/Home.css';
+import Card from '../../components/card/Card';
+import Button from '../../components/button/Button';
 
 const Home = () => {
+
 	return (
 		<>
 			<section className="home-titles-section">
 				<div className="home-titles">
+					<div className="home-bg-blob home-bg-blob4">
+						<img className="home-bg-img" src={blob4} />
+					</div>
 					<h1 className="home-title-content">
 					Tarjetas desplegables
 						<span className="home-title-span">tridimensionales</span>
@@ -20,34 +25,24 @@ const Home = () => {
 					</h2>
 					<Button>Quiero mi tarjeta</Button>
 				</div>
-				<img className="home-forefront-image" alt="arnau" src={arnau} />
+				<div className="home-forefront-image-container">
+					<div className="home-bg-blob home-bg-blob3">
+						<img className="home-bg-img" src={blob3} />
+					</div>
+					<div className="home-forefront-container">
+						<img className="home-forefront-image" alt="arnau" src={arnau} />
+					</div>
+				</div>
 			</section>
+
 			{/* ---------------------- CATEGORIES SECTION ------------------------------- */}
 			
 			<section className="home-categories-section">
 				<h3 className="home-section-title">Categorías</h3>
 				<div className="home-cards-container">
-					<article className="card-container">
-						<div className="categories-card-image-container">
-							<img className="categories-card-image" src={img1}/>
-						</div>
-						<h4 className="categories-card-title">Amor</h4>
-						<p className="categories-card-subtitle">Regala dulzura</p>
-					</article>
-					<article className="card-container">
-						<div className="categories-card-image-container">
-							<img className="categories-card-image" src={img3}/>
-						</div>
-						<h4 className="categories-card-title">Ciudades</h4>
-						<p className="categories-card-subtitle">Monumentos destacados de Europa</p>
-					</article>
-					<article className="card-container">
-						<div className="categories-card-image-container">
-							<img className="categories-card-image" src={img2}/>
-						</div>
-						<h4 className="categories-card-title">Amistad</h4>
-						<p className="categories-card-subtitle">Disfrutar y compartir</p>
-					</article>
+					<Card image={img1} title="Amor" subtitle="Regala dulzura" />
+					<Card image={img3} title="Ciudades" subtitle="La ciudad de tus sueños" />
+					<Card image={img2} title="Amistad" subtitle="Disfrutar y compartir" />
 				</div>
 			</section>
 
