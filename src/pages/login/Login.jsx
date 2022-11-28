@@ -41,7 +41,7 @@ const Login = ({user}) => {
 				<button className="btn-login" type="submit">Login</button>
 				{error && <p>{error}</p>}
 
-				<p>¿No tienes cuenta? <a onClick={() => navigate('/register')}> Crea una ahora</a>.</p>
+				<p className="register-msn">¿No tienes cuenta? <a onClick={() => navigate('/register')}> Crea una ahora</a>.</p>
 			</form>
 		</div>
 	);
