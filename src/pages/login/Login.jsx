@@ -2,6 +2,7 @@ import React, { useState, useContext } from 'react';
 import UserContext from '../../context/UserContext';
 import '../login/Login.css';
 import { useNavigate  } from 'react-router-dom';
+import liria from '../../assets/img/Palacio-de-Liria-5.png';
 
 const initialState = {
 	email: '',
@@ -19,9 +20,9 @@ const Login = ({user}) => {
 
 
 	return (
+		<>
 		<div className="login-container">
 			<h2 className="main-text">LOGIN</h2>
-
 			<form onSubmit={event => handleLoginWidthEmailAndPassword(event, userData)}>
 				<input 
 					type="email" 
@@ -44,6 +45,9 @@ const Login = ({user}) => {
 				<p className="register-msn">¿No tienes cuenta? <a onClick={() => navigate('/register')}> Crea una ahora</a>.</p>
 			</form>
 		</div>
+		
+		<img className="register-forefront-image" alt="Palacio de Liria" src={liria} />
+		</>
 	);
 };
 
