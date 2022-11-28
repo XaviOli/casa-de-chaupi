@@ -1,213 +1,26 @@
-.home-titles-section {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  padding-top: 7rem;
-  overflow: hidden;
-}
-
-.home-bg-blob {
-  position: absolute;
-}
-
-.home-bg-blob4 {
-  width: 870px;
-  bottom: -470px;
-  left: -162px;
-}
-
-.home-bg-blob3 {
-  width: 1500px;
-  top: -55px;
-  left: -160px;
-}
-
-.home-bg-img {
-  width: 100%;
-}
-
-.home-forefront-image-container {
-  position: relative;
-}
-
-.home-forefront-container {
-  z-index: 20;
-  position: relative;
-}
-
-.home-forefront-image {
-  right: 0;
-  width: 500px;
-  margin: 20px 0;
-  left: 55%;
-  transition: ease-in-out 0.3s;
-  z-index: 20;
-}
-
-.home-forefront-image:hover {
-  right: 0;
-  width: 500px;
-  margin: 20px 0;
-  left: 55%;
-
+.button-default { 
+  border: 0;
+  width: 196px;;
+  padding: 1em;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1em;
+  background: #8b9960;
+  transition: all 0.2s;
+  border-radius: 3px;
+  text-transform: uppercase;
   cursor: pointer;
-  transform: scale(1.2);
+  z-index: 20;
+}
+
+.button-default:hover {
+  background-color: var(--button-color-hover);
   transition: ease-in-out 0.3s;
 }
 
-.home-titles {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  min-width: 300px;
-  height: fit-content;
-  position: relative;
+.button-default:active {
+  background-color: var(--button-color-active);
+  transition: ease-in-out 0.3s;
 }
 
-.home-title-content {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem 0;
-  text-align: center;
-  font-size: 2rem;
-}
-
-.home-title-span {
-  color: #8b9960;
-  font-size: 1.5rem;
-  font-size: 2.6rem;
-}
-
-.home-subtitle {
-  font-size: 1.5rem;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
-  font-family: var(--secondary-font);
-  text-align: center;
-  max-width: 450px;
-  font-weight: normal;
-}
-
-/* ---------------------- INTRODUCTION SECTION RESPONSIVE ------------------------------- */
-
-
-@media (max-width: 1020px) {
-  .home-titles-section {
-      justify-content: center;
-  }
-
-  .home-titles {
-      width: 100%;
-  }
-}
-
-@media (max-width: 460px) {
-  .home-forefront-image {    
-      width: 300px;
-  }
-  
-  .home-forefront-image:hover {
-      width: 300px;
-  }
-
-  .home-title-content {
-      font-size: 1.5rem;
-  }
-
-  .home-title-span {
-      font-size: 2rem;
-  }
-}
-
-@media (max-width: 340px) {
-  .home-title-content {
-      font-size: 1.2rem;
-  }
-
-  .home-title-span {
-      font-size: 1.55rem;
-  }
-
-  .home-subtitle {
-      font-size: 1.2rem;
-  }
-}
-
-/* ---------------------- CATEGORIES SECTION ------------------------------- */
-
-
-.home-categories-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--secondary-bg-color);
-  padding: 3rem;
-  box-shadow: inset 0px 2px 15px -3px rgba(0,0,0,0.4);
-}
-
-.home-section-title {
-  text-align: center;
-  padding: 2rem 0;
-  font-family: hearthstone;
-  font-size: 2rem;
-}
-
-.home-cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  width: 80%;
-}
-
-/* ---------------------- COMMENTS SECTION ------------------------------- */
-
-
-.home-commentaries-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 3rem;
-}
-
-.home-comments-container {
-  align-items: flex-start;
-}
-
-.comment-card-container {
-  box-shadow: none;
-  padding: 2rem;
-  border: 3px solid var(--card-bg-color);
-}
-
-.card-container.comment-card-container:hover {
-  transform: scale(1);
-}
-
-.main-comment {
-  position: relative;
-}
-
-.main-comment-image {
-  width: 50px;
-  position: absolute;
-  top: -25px;
-  left: 25px;
-}
-
-.default-comment {
-  background-color: transparent;
-}
-
-.comment-card-text {
-  color: var(--third-font-color);
-  font-size: 0.8rem;
-}
-
-.comment-author {
-  padding-top: 2rem;
-}
+/* ---------------------- BUTTON RESPONSIVE ------------------------------- */

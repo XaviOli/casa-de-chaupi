@@ -21,7 +21,7 @@ const Home = () => {
 						<span className="home-title-span">tridimensionales</span>
 					</h1>
 					<h2 className="home-subtitle">
-					Las tarjetas cobran vida y movimiento cada vez que las abres.
+					Las tarjetas cobran vida y movimiento cada vez que las abres... ¡Efecto sorpresa!
 					</h2>
 					<Button>Quiero mi tarjeta</Button>
 				</div>
