@@ -1,9 +1,10 @@
 .about-img-container {
 	position: relative;
-  width: 50%;
-  margin: 20px 0;
-  left: 2%;
+	width: 90vw;
+	margin: 20px 0;
+	left: 2%;
 	border-radius: 30px;
+	object-fit: cover;
 }
 
 .about-text-container {
@@ -13,4 +14,11 @@
 	align-items: center;
 	padding-bottom: 10px;
 	padding: 0 25px;
+}
+
+.about-main {
+	height: 90vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }

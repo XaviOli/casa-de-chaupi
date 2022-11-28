@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import {
 	img1, img3, img2, quotes, blob4, blob3
 } from '../../assets/img';
@@ -6,8 +6,13 @@ import arnau from '../../assets/img/Arnau-cumple-26.png';
 import '../home/Home.css';
 import Card from '../../components/card/Card';
 import Button from '../../components/button/Button';
+import { useNavigate } from 'react-router-dom';
+import UserContext from '../../context/UserContext';
 
 const Home = () => {
+
+	const navigate = useNavigate();
+	const { user } = useContext(UserContext);
 
 	return (
 		<>
@@ -23,7 +28,7 @@ const Home = () => {
 					<h2 className="home-subtitle">
 					Las tarjetas cobran vida y movimiento cada vez que las abres... ¡Efecto sorpresa!
 					</h2>
-					<Button>Quiero mi tarjeta</Button>
+					<Button onClick={user ? () => navigate("/shop") : () => navigate("/login")} >Quiero mi tarjeta</Button>
 				</div>
 				<div className="home-forefront-image-container">
 					<div className="home-bg-blob home-bg-blob3">

@@ -30,8 +30,9 @@ import blob2 from './Blob-2.png';
 import blob3 from './Blob-3.png';
 import blob4 from './Blob-4.png';
 import dots from './Dots.png';
-import footerLogo from './Logo_CasadeChaupi_footer.png'
+import footerLogo from './Logo_CasadeChaupi_footer.png';
+import aboutbg from './About-bg-40.jpg'
 
 export {
-	img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, logo, wallpaper, cita, quotes, blob1, blob2, blob3, blob4, dots, footerLogo
+	img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, logo, wallpaper, cita, quotes, blob1, blob2, blob3, blob4, dots, footerLogo, aboutbg
 };
