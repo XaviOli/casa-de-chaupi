@@ -36,8 +36,8 @@ export const Footer = () => {
 						<ul>
 							<li className="footer-nav-title">Links</li>
 							<li className="footer-nav-link-item"><NavLink className="footer-nav-link" to="/">Home</NavLink></li>
-							<li className="footer-nav-link-item"><NavLink className="footer-nav-link" to="/tienda">Tienda</NavLink></li>
-							<li className="footer-nav-link-item"><NavLink className="footer-nav-link" to="/sobremi">Sobre mí</NavLink></li>
+							<li className="footer-nav-link-item"><NavLink className="footer-nav-link" to="/shop">Tienda</NavLink></li>
+							<li className="footer-nav-link-item"><NavLink className="footer-nav-link" to="/About">Sobre mí</NavLink></li>
 						</ul>
 					</div>
 					<div className="footer-nav-links-list-container">

@@ -13,6 +13,8 @@ const UserProvider = ({ children }) => {
 	const [isLoadingUser, setIsLoadingUser] = useState(false)
 	const navigate = useNavigate();
 
+	console.log(user)
+
 	useEffect(()=> {
 		const unsubscribe = onAuthStateChanged(auth, (currentuser) => {
 			setUser(currentuser);
@@ -33,7 +35,7 @@ const UserProvider = ({ children }) => {
 		try {
 			const response = await createUserWithEmailAndPassword(auth, userEmail, userPassword);
 			response && setUser(response);
-			response && navigate('/');
+			response && navigate('/shop');
 		}
 		catch(error) {
 			setError(error.message);
@@ -53,7 +55,7 @@ const UserProvider = ({ children }) => {
 		try {
 			const response = await signInWithEmailAndPassword(auth, userEmail, userPassword);
 			response && setUser(response);
-			response && navigate('/');
+			response && navigate('/shop');
 		}
 		catch(error) {
 			setError(error.message);

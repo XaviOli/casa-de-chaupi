@@ -11,6 +11,7 @@ import Button from '../button/Button';
 const Header = () => {
 	const navigate = useNavigate();
 	const {user, signOutUser} = useContext(UserContext);
+	console.log(user)
 	return (
 		<header>
 			<nav >
@@ -23,10 +24,10 @@ const Header = () => {
 					<ul className="nav-list-container">
 						{user && 
 						<li className="nav-list-item">
-							<NavLink to="/tienda" className="nav-list-link">TIENDA</NavLink>
+							<NavLink to="/shop" className="nav-list-link">TIENDA</NavLink>
 						</li>}
 						<li  className="nav-list-item">
-							<NavLink to="/sobremi" className="nav-list-link">SOBRE MI</NavLink>
+							<NavLink to="/About" className="nav-list-link">SOBRE MI</NavLink>
 						</li>
 						<li className="nav-session-list-item">
 							{user ? 

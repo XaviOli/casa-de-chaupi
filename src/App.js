@@ -14,22 +14,21 @@ import ConditionalRoute from './helpers/ConditionalRoute';
 
 function App() {
 	const {user, isLoadingUser} = useContext(UserContext);
-	console.log(user, isLoadingUser)
 	return (
 		<div>
 			<Header/>
 			<main className="main-container">
 				<Routes>
-					<Route path="/sobremi" element={<About />} />
+					<Route path="/About" element={<About />} />
 					<Route path="/login" element={
 						<ConditionalRoute user={user} isLoadingUser={isLoadingUser}>
 							<Login />
 						</ConditionalRoute>} />
-					<Route path="/registro" element={
+					<Route path="/Register" element={
 						<ConditionalRoute user={user} isLoadingUser={isLoadingUser}>
 							<Register />
 						</ConditionalRoute>} />
-					<Route path="/tienda" element={
+					<Route path="/shop" element={
 						<ProtectedRoute user={user} isLoadingUser={isLoadingUser}>
 							<Shop />
 						</ProtectedRoute>} />
