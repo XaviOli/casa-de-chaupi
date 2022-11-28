@@ -3,6 +3,7 @@ import UserContext from '../../context/UserContext';
 import '../login/Login.css';
 import { useNavigate  } from 'react-router-dom';
 import liria from '../../assets/img/Palacio-de-Liria-5.png';
+import login from '../../assets/img/Login-bg-33.jpg';
 
 const initialState = {
 	email: '',
@@ -46,7 +47,8 @@ const Login = ({user}) => {
 			</form>
 		</div>
 		
-		<img className="register-forefront-image" alt="Palacio de Liria" src={liria} />
+		{/* <img className="register-forefront-image" alt="Palacio de Liria" src={liria} /> */}
+		<img className="register-forefront-image" alt="Backgroung login" src={login} />
 		</>
 	);
 };

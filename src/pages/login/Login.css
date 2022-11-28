@@ -21,6 +21,10 @@
 } 
 
 .register-forefront-image {
+    width: 100vw;
+}
+
+/* .register-forefront-image {
     width: 50%;
     transition: ease-in-out 0.3s;
 }
@@ -29,7 +33,7 @@
     cursor: pointer;
     transform: scale(1.2);
     transition: ease-in-out 0.3s;
-}
+} */
 
 /* .card-container {
     border-radius: 10px;
