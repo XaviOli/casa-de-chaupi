@@ -57,7 +57,7 @@ export const Footer = () => {
 				</nav>
 			</div>
 			<div className="footer-copyright">
-				<p>Copyright & Design by Savino.</p>
+				<p>Copyright © & by Casa de Chaupi 2022.</p>
 
 				<div className="footer-terms">
 					<p className="footer-terms-text">Términos y Condiciones</p>

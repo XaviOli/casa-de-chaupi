@@ -1,0 +1,15 @@
+.about-img-container {
+	position: relative;
+  width: 95%;
+  margin: 20px 0;
+  left: 2%;
+	border-radius: 30px;
+}
+
+.about-text-container {
+	font-family: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 10px;
+}
