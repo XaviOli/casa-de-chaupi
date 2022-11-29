@@ -52,7 +52,7 @@ const Register = () => {
 					<Button style={{padding: '0.5rem 1rem', marginTop: '1rem'}} type="submit">Crear</Button>
 					{error && <p>{error}</p>}
 
-					<p className="register-msn">¿Ya tienes una cuenta? <button className="create-account-button" onClick={() => navigate('/login')}> Inicia Sesion</button>.</p>
+					<p className="register-msn">¿Ya tienes una cuenta? <button className="create-account-button" onClick={() => navigate('/login')}> Inicia Sesión</button>.</p>
 				</form>
 			</div>
 		</div>
