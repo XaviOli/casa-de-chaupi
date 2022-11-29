@@ -161,6 +161,13 @@ const cards = [
     img: images.img23,
     stock: true,
     category: 'Brand'
+  },
+  {
+  id: 24,
+    price: '22',
+    img: images.img24,
+    stock: true,
+    category: 'Brand'
   }
 ];
 
