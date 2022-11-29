@@ -8,10 +8,12 @@ const Shop = () => {
     <div className="shop-cards-container">
       {
         cards.map((card) => 
-        <Card id={card.id} key={card.id} image={card.img} title={`${card.price} €`}/>)
+        <Card id={card.id} key={card.id} image={card.img} title={`${card.description}`}/>)
       }
     </div>
   )
 }
 
 export default Shop;
+
+// ${card.price} €

@@ -22,6 +22,7 @@ import img21 from './Limonada-21.png';
 import img22 from './Cuchara-de-palo-22.png';
 import img23 from './CeciRosario-23.png';
 import img24 from './Luis-Vicente-27.png';
+import img25 from './Arnau-cumple-26.png';
 import logo from './Logo_CasadeChaupi.png';
 import wallpaper from './Wallpaper-0.jpg';
 import cita from './cita.png';
@@ -35,5 +36,5 @@ import footerLogo from './Logo_CasadeChaupi_footer.png';
 import aboutbg from './About-bg-40.jpg'
 
 export {
-	img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, logo, wallpaper, cita, quotes, blob1, blob2, blob3, blob4, dots, footerLogo, aboutbg
+	img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img25, logo, wallpaper, cita, quotes, blob1, blob2, blob3, blob4, dots, footerLogo, aboutbg
 };
