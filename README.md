@@ -19,6 +19,7 @@ Where we get really surprise watching the movements of the pages.
 - Firebase
 - Photoshop
 - TinyPNG
+- Netlify
 
 ![home image](src/assets/img/03-home-Chaupi.jpg)
 
