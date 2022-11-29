@@ -16,6 +16,8 @@ Where we get really surprise watching the movements of the pages.
 - Context
 - React Icons
 - React Router DOM
+- Firebase
+- Photoshop
 
 ![home image](src/assets/img/03-home-Chaupi.jpg)
 
