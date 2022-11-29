@@ -18,6 +18,7 @@ Where we get really surprise watching the movements of the pages.
 - React Router DOM
 - Firebase
 - Photoshop
+- TinyPNG
 
 ![home image](src/assets/img/03-home-Chaupi.jpg)
 

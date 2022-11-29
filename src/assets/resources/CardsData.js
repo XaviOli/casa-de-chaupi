@@ -15,7 +15,7 @@ const cards = [
     img: images.img2,
     stock: true,
     category: 'Friendship',
-    description: 'Frase Populares'
+    description: 'Frases Populares'
   },
   {
     id: 3,
