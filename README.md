@@ -2,7 +2,7 @@
 
 An exciting project of pop up cards, using the paper engineering to give movement and surprise effect every time it is opened in front of your eyes.
 
-[See deployed web here](https://deluxe-figolla-c161e1.netlify.app/)
+[See deployed web here](https://casa-de-chaupi.netlify.app/)
 
 # What is this app about?
 
