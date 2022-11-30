@@ -45,7 +45,7 @@ const Login = () => {
 					<Button style={{padding: '0.5rem 1rem', marginTop: '1rem'}} type="submit">Login</Button>
 					{error && <p>{error}</p>}
 
-					<p className="register-msn">¿No tienes cuenta? <button className="create-account-button" onClick={() => navigate('/register')}> Crea una ahora</button>.</p>
+					<p className="register-msn">¿No tienes cuenta? <button className="create-account-button" onClick={() => navigate('/register')}> Crea una ahora</button></p>
 				</form>
 			</div>
 		</div>
