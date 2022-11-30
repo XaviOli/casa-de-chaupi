@@ -200,7 +200,23 @@ const cards = [
       stock: true,
       category: 'Friendship',
       description: 'Tarjeta de cumpleaños'
-    }
+    },
+    {
+      id: 26,
+        price: '12',
+        img: images.img26,
+        stock: true,
+        category: 'Brand',
+        description: 'Meditación'
+      },
+      {
+        id: 27,
+          price: '12',
+          img: images.img27,
+          stock: true,
+          category: 'Love',
+          description: 'Mezza Mela'
+        }
 ];
 
 export default cards;
