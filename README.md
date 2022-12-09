@@ -29,7 +29,7 @@ Responsive web for the latest mobile version 😃
 
 Here is a shot of our landing page, responsive mobile version of the website from the previous version.
 
-![mobile image](src/assets/img/Readme-mobile-3.jpg)
+![mobile image](src/assets/img/Readme-mobile-4.jpg)
 
 <!-- ![mobile image 1](src/assets/img/Mobile-version-1.jpg)
 ![mobile image 2](src/assets/img/Mobile-version-2.jpg)
