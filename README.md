@@ -23,7 +23,7 @@ Where we get really surprise watching the movements of the pages.
 - TinyPNG
 - Netlify
 
-![home image](src/assets/img/04-home-Chaupi.jpg)
+![home image](src/assets/img/05-home-Chaupi.jpg)
 
 Responsive web for the latest mobile version 😃
 
